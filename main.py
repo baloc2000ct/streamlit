@@ -75,11 +75,6 @@ prediction = RandomForestClassifier.predict(user_input)
 st.subheader('Classification:')
 st.write(prediction)
 
-if(prediction[0]==0):
 
-    st.write("The person is not diabetes")
-else:
-
-    st.write("The person is diabetes")
 
 
